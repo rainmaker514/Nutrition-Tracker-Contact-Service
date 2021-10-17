@@ -8,7 +8,7 @@ import java.util.List;
 @RequestMapping("/contact")
 @CrossOrigin(origins = "http://localhost:4200")
 public class ContactController {
-    private final ContactService contactService;
+    /*private final ContactService contactService;
 
     public UserController(UserService userService) { this.userService = userService; }
 
@@ -29,5 +29,5 @@ public class ContactController {
     @ResponseBody
     @DeleteMapping("/delete/{id}")
     public void deleteUser(@PathVariable("id") Long id){ userService.deleteUser(id); }
-
+*/
 }
